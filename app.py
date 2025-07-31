@@ -1,4 +1,5 @@
 import streamlit as st
+import openpyxl
 from sentiment_analysis import pred_text
 
 st.set_page_config(page_title="Sentiment Meme App")
